@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(131, 21, 30);
+    text-align: center;
+    color: white;
+    margin: 30px 3px;   
+    overflow-y: scroll;
+    font-family: serif;
+    padding: 20px;
+}
+
+.container {
+    border: 2px solid wheat;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+    caret-color: rgb(43, 255, 0);
+}
+
+input[type=range]{
+    margin: 16px;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: wheat;
+    color: blue ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 2s;
+    font-weight: bold;
+
+}
+
+button:hover{
+    background-color: rgb(59, 47, 95);
+    color: white;
+
+}
+
+i {
+    color: wheat;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center; 
+}
